@@ -24,7 +24,7 @@ leftside{
     width: 100%;
 }
 .main{
-    background-image: url("images/top-banne.png");
+    background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
   
 }
@@ -44,4 +44,28 @@ section{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.main2{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.y{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+#full-stack{
+    border-left: 7px solid;
+border-image: linear-gradient(180deg, tomato,lightSalmon);
+border-image-slice: 1;
+background-color: white;
+}
+#full-stack1{
+    border-left: 7px solid;
+border-image: linear-gradient(90deg,pink, red);
+border-image-slice: 1;
+}
+footer{
+    text-align:center;
 }
